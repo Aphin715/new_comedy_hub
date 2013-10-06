@@ -20,11 +20,7 @@
   <%= @comedy_club.website %>
 </p>
 
-<p>
-  <strong> Shows </strong>
-  <%= @comedy_club.shows %>
-</p>
 
 <%= link_to 'Edit', edit_comedy_club_path(@comedy_club) %> |
 <%= link_to 'Back', comedy_clubs_path %>
-<%= link_to 'Destroy', act, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= link_to 'Destroy', comedy_club, method: :delete, data: { confirm: 'Are you sure?' }%>
