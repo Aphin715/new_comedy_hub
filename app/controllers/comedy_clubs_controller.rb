@@ -10,6 +10,7 @@ class ComedyClubsController < ApplicationController
   # GET /comedy_clubs/1
   # GET /comedy_clubs/1.json
   def show
+
   end
 
   # GET /comedy_clubs/new
