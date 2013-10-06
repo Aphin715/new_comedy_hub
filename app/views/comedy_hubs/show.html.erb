@@ -1,0 +1,8 @@
+<% @clubs.each do |club| %>
+  <%= club.name %>
+
+  <% club.comedians.each do |comedian| %>
+  <%= comedian.name %>
+
+  <%- end -%>
+<%- end -%>

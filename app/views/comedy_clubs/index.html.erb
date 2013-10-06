@@ -1,0 +1,13 @@
+<%= link_to 'New Comedy club', new_comedy_club_path %>
+<body class="bold">
+<div id="cbp-so-scroller" class="cbp-so-scroller">
+  <%- @comedy_clubs.each do |comedy_club| -%>
+    <%= render "comedy_clubs/list_item_#{cycle('left', 'right')}",
+      comedy_club: comedy_club %>
+  <%- end -%>
+</div>
+
+<script>
+  new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+</script>
+</body>

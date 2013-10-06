@@ -1,0 +1,12 @@
+<section class="cbp-so-section cbp-so-animate">
+  <article class="cbp-so-side cbp-so-side-left">
+    <h2 style="font-size:40px"><%= link_to comedy_club.name, comedy_club_path(comedy_club) %></h2>
+    <p style="font-size:20px"><%= comedy_club.description %></p>
+    <p style="font-size:14px"><%= comedy_club.location %> </p>
+    <%= link_to "#{comedy_club.name} Website", comedy_club.website %>
+  </article>
+
+  <figure class="cbp-so-side cbp-so-side-right">
+     <%= comedy_club_image(comedy_club) %>
+  </figure>
+</section>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @comedian.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @comedian.last_name %>
+</p>
+
+<p>
+  <strong>Bio:</strong>
+  <%= @comedian.bio %>
+</p>
+
+<p>
+  <strong>Youtube url:</strong>
+  <iframe width="560" height="349" src="<%= @comedian.youtube_url %>"></iframe>
+</p>
+
+<%= link_to 'Edit', edit_comedian_path(@comedian) %> |
+<%= link_to 'Back', comedians_path %>
