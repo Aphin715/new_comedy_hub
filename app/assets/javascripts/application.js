@@ -19,3 +19,7 @@
 //= require vendor/classie
 //= require vendor/cbpScroller
 //= require_tree .
+
+$(document).ready(function{
+  $("nav").hide()
+  })

@@ -1,7 +1,15 @@
 @import "twitter/bootstrap";
 
-.welcome-index { background-image: image-url("brickwall.jpg"); }
+// # .welcome-index { background-image: image-url("brickwall.jpg"); }
+.page-header{
+    color:#F2E6D0;
+}
 
+.page-header small {
+    font-size:24px;
+    font-weight:bold;
+    color: #F2E6D0;
+}
 
 body.users.users-new{
    text-align:center;
