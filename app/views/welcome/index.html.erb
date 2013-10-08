@@ -7,12 +7,25 @@
 
 
 
+</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
-  $("nav").css('color','red')
-  })
+  // To attach Backstrech as the body's background
+  $(function(){
+    $.backstretch("bricks.jpg");
+  });
 
 
+  // // You may also attach Backstretch to a block-level element
+  // $(".foo").backstretch("path/to/image.jpg");
+
+  // // Or, to start a slideshow, just pass in an array of images
+  // $(".foo").backstretch([
+  //   "path/to/image.jpg",
+  //   "path/to/image2.jpg",
+
+ //   "path/to/image3.jpg"
+  // ], {duration: 4000});
 </script>
 <!-- -->
 <%- end -%>

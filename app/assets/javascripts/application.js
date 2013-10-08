@@ -19,3 +19,4 @@
 //= require vendor/classie
 //= require vendor/cbpScroller
 //= require_tree .
+//= require backstretch

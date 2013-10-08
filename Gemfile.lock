@@ -36,6 +36,8 @@ GEM
     addressable (2.3.5)
     arel (4.0.0)
     atomic (1.1.14)
+    backstretch-rails (2.0.4)
+      railties (> 3.1)
     bcrypt-ruby (3.0.1)
     bootstrap-will_paginate (0.0.9)
       will_paginate
@@ -89,7 +91,7 @@ GEM
     multi_json (1.8.0)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
-    pg (0.16.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
@@ -175,6 +177,7 @@ PLATFORMS
 
 DEPENDENCIES
   anjlab-bootstrap-rails!
+  backstretch-rails
   bcrypt-ruby (= 3.0.1)
   bootstrap-will_paginate (= 0.0.9)
   capybara
