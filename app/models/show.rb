@@ -9,6 +9,10 @@ class Show < ActiveRecord::Base
 
   validates_presence_of :comedy_club
 
+  def pretty_start_time
+    start_time.strftime("%A, %B %d at %l:%M %p")
+  end
+
   def self.future
     Show.where("start_time >= ?", Date.today)
   end
