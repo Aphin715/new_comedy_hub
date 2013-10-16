@@ -2,7 +2,19 @@
 
 <p>
   <strong>Comedy club:</strong>
-  <%= @show.comedy_club_id %>
+  <%= @show.comedy_club.name%>
+</p>
+
+<p>
+  <strong>Comedians:</strong>
+  <ul>
+    <% @show.comedians.each do |comedian| %>
+      <li>
+        <%= link_to comedian.name, comedian_path(comedian) %>
+      </li>
+    <% end %>
+  </ul>
+
 </p>
 
 <p>

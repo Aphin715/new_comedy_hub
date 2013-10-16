@@ -45,9 +45,12 @@
 
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/signin">Sign In</a></li>
-      <li><a href="/signup">Sign Up</a></li>
-
+      <%- if user_signed_in? -%>
+        <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+         <%- else -%>
+      <li><%= link_to 'Sign In', new_user_session_path %></li>
+      <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+      <%- end -%>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
@@ -56,6 +59,7 @@
 <%= yield :big_header %>
 
 <div class="container">
+
   <%= yield %>
 
   <%= debug(params) if Rails.env.development? %>

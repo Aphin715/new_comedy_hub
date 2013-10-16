@@ -16,7 +16,7 @@
   <tbody>
     <% @shows.each do |show| %>
       <tr>
-        <td><%= show.comedy_club_id %></td>
+        <td><%= show.comedy_club.name %></td>
         <td><%= show.start_time %></td>
         <td><%= show.end_time %></td>
         <td><%= show.title %></td>

@@ -13,11 +13,11 @@
 
   <div class="field">
     <%= f.label :comedian_id %><br>
-    <%= f.number_field :comedian_id %>
+    <%= f.collection_select :comedian_id, Comedian.all, :id, :name, include_blank:true %>
   </div>
   <div class="field">
     <%= f.label :show_id %><br>
-    <%= f.number_field :show_id %>
+    <%= f.collection_select :show_id, Show.all, :id, :title, include_blank:true%>
   </div>
   <div class="actions">
     <%= f.submit %>

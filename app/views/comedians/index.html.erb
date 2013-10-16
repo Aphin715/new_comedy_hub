@@ -1,33 +1,14 @@
-<h1>Comedians</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>First name</th>
-      <th>Last name</th>
-      <th>Bio</th>
-      <th>Youtube url</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @comedians.each do |comedian| %>
-      <tr>
-        <td><%= comedian.first_name %></td>
-        <td><%= comedian.last_name %></td>
-        <td><%= comedian.bio %></td>
-        <td><%= comedian.youtube_url %></td>
-        <td><%= link_to 'Show', comedian %></td>
-        <td><%= link_to 'Edit', edit_comedian_path(comedian) %></td>
-        <td><%= link_to 'Destroy', comedian, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
 <%= link_to 'New Comedian', new_comedian_path %>
+<body class="bold">
+<div id="cbp-so-scroller" class="cbp-so-scroller">
+  <%- @comedians.each do |comedian| -%>
+    <%= render "comedians/list_item_#{cycle('left', 'right')}",
+      comedian: comedian %>
+  <%- end -%>
+</div>
+
+<script>
+  new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+</script>
+</body>
+

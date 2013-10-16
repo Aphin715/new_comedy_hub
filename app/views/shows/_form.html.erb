@@ -13,7 +13,11 @@
 
   <div class="field">
     <%= f.label :comedy_club_id %><br>
-    <%= f.number_field :comedy_club_id %>
+    <%= f.collection_select :comedy_club_id, ComedyClub.all, :id, :name, include_blank:true%>
+  </div>
+  <div class="field">
+    <%= f.label :comedian_ids, "Comedians" %><br>
+    <%= f.collection_select :comedian_ids, Comedian.all, :id, :name, {include_blank:true}, {multiple: true} %>
   </div>
   <div class="field">
     <%= f.label :start_time %><br>

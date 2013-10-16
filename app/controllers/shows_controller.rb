@@ -10,6 +10,7 @@ class ShowsController < ApplicationController
   # GET /shows/1
   # GET /shows/1.json
   def show
+    @show = Show.find(params[:id])
   end
 
   # GET /shows/new
@@ -69,6 +70,6 @@ class ShowsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def show_params
-      params.require(:show).permit(:comedy_club_id, :start_time, :end_time, :title)
+      params.require(:show).permit(:comedy_club_id, :start_time, :end_time, :title, comedian_ids: [])
     end
 end

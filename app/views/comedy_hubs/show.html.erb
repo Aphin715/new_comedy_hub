@@ -1,8 +1,16 @@
 <% @clubs.each do |club| %>
-  <%= club.name %>
+  <h2><%= club.name %> </h2>
 
-  <% club.comedians.each do |comedian| %>
-  <%= comedian.name %>
+  <% club.shows.each do |show| %>
+  <h4><%= show.title %> </h4>
+  <h5><%= show.start_time %></h5>
+  <% show.comedians.each do |comedian| %>
+    <%= comedian.name %>
 
-  <%- end -%>
+
+
+
+<% end %>
+
+    <%- end -%>
 <%- end -%>

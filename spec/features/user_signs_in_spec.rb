@@ -1,69 +1,57 @@
-# require 'spec_helper'
+require 'spec_helper'
 
-# feature " User can sign in " ,%Q{
-# As an unathenticated user
-# I want to sign in
-# So that I can take advantage of member privileges
-# } do
+feature "signing in", %Q{
+  As a signed up user
+  I want to sign back in
+  so that I can use the site
+} do
+ # Acceptance Criteria
 
-#     #   Acceptance Criteria
+ # * User must enter email and password
+ # * Upon completion they are successfully logged in
+ # * If invalid email or password is given user is presented with errors
 
-#     # * User must supply email and password
-#     # *If email and password are correct they can enter the site
-#     # *If they are not correct they can are presented with an error
-#     # *if they do not remember their password they can have their password sent to their email
+  scenario "user signs in" do
+     user = FactoryGirl.create(:user)
 
-# # it " is able to sign in with valid information"
+    visit new_user_session_path
+    fill_in "Login", with: user.email
+    fill_in "Password", with: user.password
+    click_button "Sign In"
 
-# #   visit "/signin"
-# #   fill_in "Email", with: "AlexPhin@gmail.com"
-# #   fill_in "Password", with: "foobar"
-# #   click_on "Submit"
-# #   expect(page).to have_content("You are successfully signed in")
+    expect(page).to have_content("Welcome Back!")
+    expect(page).to have_content("Sign Out")
+  end
 
-# # it ""
+  scenario ' a nonexistent email and password is supplied' do
+    visit new_user_session_path
+    click_button "Sign In"
 
-# # describe "Authentication" do
+    expect(page).to have_content("Invalid email or password.")
+    expect(page).to_not have_content("Sign Out")
+    expect(page).to_not have_content("You're In!")
+  end
 
-# #   subject { page }
+  scenario 'a existing email with the wrong password is denied access ' do
+    user = FactoryGirl.create(:user)
+    visit new_user_session_path
+    fill_in "Login", with: user.email
+    fill_in 'Password', with: 'incorrectpassword'
+    click_button "Sign In"
 
+    expect(page).to have_content("Invalid email or password.")
+    expect(page).to_not have_content("Sign Out")
+    expect(page).to_not have_content("You're In!")
+  end
 
+  scenario "an already authenticated user cannot re-sign in" do
+    user = FactoryGirl.create(:user)
+    visit new_user_session_path
+    fill_in "Login", with: user.email
+    fill_in 'Password', with: user.password
+    click_button "Sign In"
 
-# #     describe "with valid information" do
-# #       let(:user) { FactoryGirl.create(:user) }
-# #         visit "/signin"
-# #         fill_in "Email",    with: user.email.upcase
-# #         fill_in "Password", with: user.password
-# #         click_button "Sign in"
-# #       end
-
-# #       it { should have_title(user.name) }
-# #       it { should have_link('Profile',     href: user_path(user)) }
-# #       it { should have_link('Sign out',    href: signout_path) }
-# #       it { should_not have_link('Sign in', href: signin_path) }
-
-# #       describe "followed by signout" do
-# #         before { click_link "Sign out" }
-# #         it { should have_link('Sign in') }
-# #       end
-# #     end
-# #   end
-# describe "authorization" do
-
-#     describe "for non-signed-in users" do
-#       let(:user) { FactoryGirl.create(:user) }
-
-#       describe "in the Users controller" do
-
-#         describe "visiting the edit page" do
-#           before { visit edit_user_path(user) }
-#           it { should have_title('Sign in') }
-#         end
-
-#         describe "submitting to the update action" do
-#           before { patch user_path(user) }
-#           specify { expect(response).to redirect_to(signin_path) }
-#         end
-#       end
-#     end
-
+    expect(page).to have_content("Sign Out")
+    expect(page).to_not have_content("Sign In")
+  end
+end

@@ -1,50 +1,57 @@
 require 'spec_helper'
 
-describe "User pages" do
+feature "User signs up", %Q{
 
-  subject { page }
+As an unauthorized user
+I want to sign up
+So I may add my favorite comedian
+} do
 
-  describe "signup page" do
-    before { visit signup_path}
 
-      before { visit signup_path }
+    # Acceptance Criteria
+    # There will be a place for the user to sign up
+    # System must validate email and password
+    # Username must be in email address format
+    # Password must be 8 characters
+    # System must show error if the username and password is entered wrong
+    # If user name and password are correct the user is saved to the database
 
-    let(:submit) { "Create my account" }
+  scenario " With valid information" do
+    prev_count = User.count
+    visit root_path
+    click_link "Sign Up"
+    fill_in "Username", with: "Username"
+    fill_in "Email", with: "user@example.com"
+    fill_in("Password", with: '12345678', :match => :prefer_exact)
+    fill_in("Password confirmation", with: '12345678', :match => :prefer_exact)
+    click_link "Sign Up"
+    expect(page).to have_content("You're in!")
+    expect(page).to have_content("Sign Out")
+    expect(User.count).to eql(prev_count +1)
 
-    describe "with invalid information" do
-      it "should not create a user" do
-        expect { click_button submit }.not_to change(User, :count)
-      end
-    end
-
-    describe "edit" do
-    let(:user) { FactoryGirl.create(:user) }
-    before { visit edit_user_path(user) }
-
-    describe "page" do
-      it { should have_content("Update your profile") }
-      it { should have_link('Change', href: 'http://gravatar.com/emails') }
-    end
-
-    describe "with invalid information" do
-      before { click_button "Save changes" }
-
-      it { should have_content('error') }
-    end
   end
 
-    describe "with valid information" do
-      before do
-        prev_count = User.count
-        fill_in "Name",         with: "Example User"
-        fill_in "Email",        with: "user@example.com"
-        fill_in "Password",     with: "foobar"
-        fill_in "Confirmation", with: "foobar"
-        expect(User.count).to eql(prev_count + 1)
+  scenario "with invalid info" do
+    prev_count = User.count
+    visit root_path
+    click_link "Sign Up"
 
 
+    expect(page).to have_content("can't be blank")
+    expect(User.count).to eql(prev_count)
+  end
 
-      end
-    end
+  scenario "password confirmation does not match password" do
+    prev_count = User.count
+    visit root_path
+    click_link "Sign Up"
+    fill_in "Username", with: "Username"
+    fill_in "Email", with: "user@example.com"
+    fill_in("Password", with: '12345678', :match => :prefer_exact)
+    fill_in("Password confirmation", with: 'password', :match => :prefer_exact)
+    click_button "Sign up"
+
+    expect(page).to have_content("doesn't match")
+    expect(page).to have_content("Sign Up")
   end
 end

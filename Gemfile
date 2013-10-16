@@ -8,6 +8,9 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'carrierwave'
 gem 'backstretch-rails'
+gem 'devise'
+gem 'simple_form'
+gem 'ransack'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -45,6 +48,10 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
+
+  gem 'quiet_assets'
+
+
 end
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                               :github => 'anjlab/bootstrap-rails'

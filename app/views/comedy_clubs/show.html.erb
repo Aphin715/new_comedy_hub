@@ -22,7 +22,19 @@
 
 <p>
   <strong> Shows </strong>
-  <%= @comedy_club.shows %>
+  <ul>
+    <% @comedy_club.shows.each do |show| %>
+      <li>
+        <%= show.title %>
+
+        <ul>
+          <% show.comedians.each do |comedian| %>
+            <li><%= comedian.name %></li>
+          <% end %>
+        </ul>
+      </li>
+    <% end %>
+  </ul>
 </p>
 
 <%= link_to 'Edit', edit_comedy_club_path(@comedy_club) %> |

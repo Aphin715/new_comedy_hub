@@ -10,7 +10,7 @@ class ComedyClubsController < ApplicationController
   # GET /comedy_clubs/1
   # GET /comedy_clubs/1.json
   def show
-
+    @comedy_club = ComedyClub.find(params[:id])
   end
 
   # GET /comedy_clubs/new

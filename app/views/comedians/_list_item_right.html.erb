@@ -1,0 +1,10 @@
+<section class="cbp-so-section cbp-so-animate">
+  <figure class="cbp-so-side cbp-so-side-left">
+    <%= video_tag comedian.youtube_url %>
+  </figure>
+
+  <article class="cbp-so-side cbp-so-side-right">
+    <h2 style="font-size:40px"><%= link_to comedian.name, comedian_path(comedian) %></h2>
+    <p style="font-size:20px"><%= comedian.bio %></p>
+  </article>
+</section>
