@@ -1,6 +1,6 @@
 <section class="cbp-so-section cbp-so-animate">
   <figure class="cbp-so-side cbp-so-side-left">
-    <%= video_tag comedian.youtube_url %>
+    <%= content_tag(comedian.youtube_embed comedian.youtube_url) %>
   </figure>
 
   <article class="cbp-so-side cbp-so-side-right">

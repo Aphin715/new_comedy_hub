@@ -1,0 +1,426 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.comedycellar.com/line-up/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.2
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=1, private, must-revalidate
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Wed, 16 Oct 2013 20:59:43 GMT
+      X-Pingback:
+      - http://www.comedycellar.com/xmlrpc.php
+      Expires:
+      - Wed, 16 Oct 2013 20:59:44 GMT
+      Connection:
+      - Keep-Alive
+      Set-Cookie:
+      - X-Mapping-miokmfji=00A5AC72241744F3481DC7EC9C0F20B9; path=/
+      Content-Length:
+      - '6525'
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<!--[if IE 6]>\n<html id=\"ie6\" dir=\"ltr\" lang=\"en-US\">\n<![endif]-->\n<!--[if
+        IE 7]>\n<html id=\"ie7\" dir=\"ltr\" lang=\"en-US\">\n<![endif]-->\n<!--[if
+        IE 8]>\n<html id=\"ie8\" dir=\"ltr\" lang=\"en-US\">\n<![endif]-->\n<!--[if
+        !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->\n<html dir=\"ltr\" lang=\"en-US\">\n<!--<![endif]-->\n<head>\n<script
+        type=\"text/javascript\" src=\"//use.typekit.net/hrs4ner.js\"></script>\n<script
+        type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n<meta charset=\"UTF-8\"
+        />\n<meta name=\"viewport\" content=\"width=device-width\" />\n<link rel=\"shortcut
+        icon\" href=\"http://www.comedycellar.com/favicon.ico\">\n<title>Line Up |
+        Comedy Cellar</title>\n<link rel=\"profile\" href=\"http://gmpg.org/xfn/11\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.comedycellar.com/wp-content/themes/comedy/style.css\"
+        />\n\n<!--[if lt IE 9]>\n<script src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/html5.js\"
+        type=\"text/javascript\"></script>\n<![endif]-->\n\n<link rel='stylesheet'
+        id='NextGEN-css'  href='http://www.comedycellar.com/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='shutter-css'
+        \ href='http://www.comedycellar.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.4'
+        type='text/css' media='screen' />\n<link rel='stylesheet' id='WPLC-style-css'
+        \ href='http://www.comedycellar.com/wp-content/plugins/comedy-lineup/css/comedy-lineup.css?ver=1.0.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='WPLC-style-Dropbox-css'
+        \ href='http://www.comedycellar.com/wp-content/plugins/comedy-lineup/css/modules/dropkick_theme.css?ver=1.0.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='WPNGGU-style-css'
+        \ href='http://www.comedycellar.com/wp-content/plugins/nextgen-all-galleries/css/style.css?ver=1.0.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='WPNGGU-addgallery-style-css'
+        \ href='http://www.comedycellar.com/wp-content/plugins/nextgen-all-galleries/css/modules/addgallery/jquery.ad-gallery.css?ver=1.0.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='thickbox-css'  href='http://www.comedycellar.com/wp-includes/js/thickbox/thickbox.css?ver=3.4.2'
+        type='text/css' media='all' />\n<script type='text/javascript'>\n/* <![CDATA[
+        */\nvar shutterSettings = {\"msgLoading\":\"L O A D I N G\",\"msgClose\":\"Click
+        to Close\",\"imageCount\":\"1\"};\n/* ]]> */\n</script>\n<script type='text/javascript'
+        src='http://www.comedycellar.com/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.3'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.9995'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.06'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-includes/js/comment-reply.js?ver=3.4.2'></script>\n<link
+        rel='prev' title='Reservations' href='http://www.comedycellar.com/reservation/'
+        />\n<link rel='next' title='Photos OLD' href='http://www.comedycellar.com/photos/'
+        />\n<meta name=\"generator\" content=\"WordPress 3.4.2\" />\n<link rel='canonical'
+        href='http://www.comedycellar.com/line-up/' />\n\t<!-- Better Backgrounds
+        3.0.7 - http://davetcoleman.com/blog/better-backgrounds-wordpress-plugin -->\r\n\t<style
+        type=\"text/css\">\r\n\t\timg.bg-rand { min-height: 100%; min-width: 1024px;
+        width: 100%; height: auto; position: fixed; top: 0; left: 0; z-index:-1; }
+        @media screen and (max-width: 1024px) { img.bg-rand { left: 50%; margin-left:
+        -512px; } }\t</style>\r\n\t<!-- End Better Backgrounds -->\r\n\t<!-- <meta
+        name=\"NextGEN\" version=\"1.9.5\" /> -->\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"http://www.comedycellar.com/wp-content/plugins/wp-recaptcha/recaptcha.css\"
+        /><script src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/jticker.js\"></script>\n</head>\n\n<body
+        class=\"page page-id-6 page-template-default single-author singular two-column
+        right-sidebar\">\n<div id=\"page\" class=\"hfeed\">\n        <div id=\"page-in-round-red\">\n
+        \           <div id=\"page-in-round\">\n                <div class=\"branding-container-fixed
+        clearfix\">\n                    <div id=\"branding-container\" class=\"clearfix\">\n
+        \                       <header id=\"branding\" role=\"banner\">\n                                <hgroup>\n
+        \                                       <h1 id=\"site-title\"><span><a href=\"http://www.comedycellar.com/\"
+        title=\"Comedy Cellar\" rel=\"home\">Comedy Cellar</a></span></h1>\n                                </hgroup>\n
+        \                               <div style=\"float:left;\">\n                                    <a
+        href=\"#\"><img style=\"width:380px;\" src=\"http://www.comedycellar.com/wp-content/uploads/2013/01/banner.png\"
+        /></a>\n                                </div>\n                                <div
+        class=\"phone-banner\">\n                                    <span>&nbsp;</span>\n
+        \                               </div>\n                                <div
+        class=\"reservation-banner\">\n                                    <a href=\"/reservation\">&nbsp;</a>\n
+        \                               </div>\n\n\n                        </header><!--
+        #branding -->\n                        <div id=\"access\" role=\"navigation\"
+        class=\"clearfix\">\n                                <h3 class=\"assistive-text\">Main
+        menu</h3>\n                                                                <div
+        class=\"skip-link\"><a class=\"assistive-text\" href=\"#content\" title=\"Skip
+        to primary content\">Skip to primary content</a></div>\n                                <div
+        class=\"skip-link\"><a class=\"assistive-text\" href=\"#secondary\" title=\"Skip
+        to secondary content\">Skip to secondary content</a></div>\n                                                                <div
+        class=\"menu\">\n                                    <div class=\"menu-top_menu-container\"><ul
+        id=\"menu-top_menu\" class=\"menu-container\"><li id=\"menu-item-21\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-21\"><a href=\"http://www.comedycellar.com/reservation/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Reservations</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-20\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page current-menu-item page_item
+        page-item-6 current_page_item menu-item-20\"><a href=\"http://www.comedycellar.com/line-up/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Line Up</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-497\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-497\"><a href=\"http://www.comedycellar.com/photogallery/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Photos</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-18\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-18\"><a href=\"http://www.comedycellar.com/olive-tree-cafe/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Olive Tree</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-375\" class=\"menu-item
+        menu-item-type-custom menu-item-object-custom menu-item-375\"><a target=\"_blank\"
+        href=\"http://www.comedycellarclasses.com/\"><span class=\"before\"></span><span
+        class=\"menu-item-cont\">Classes</span><span class=\"after\"></span></a></li>\n<li
+        id=\"menu-item-16\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-16\"><a href=\"http://www.comedycellar.com/contact-us/\"><span class=\"before\"></span><span
+        class=\"menu-item-cont\">Contact</span><span class=\"after\"></span></a></li>\n</ul></div>\t\t\t\t\t\t\t\t\t<a
+        class=\"twitter\" href=\"https://twitter.com/NYCComedyCellar\" target=\"_blank\"></a>\n\t\t\t\t\t\t\t\t</div>\n
+        \                               \n                        </div><!-- #access
+        -->\n                        <img id=\"sub-head-bg\" src=\"http://www.comedycellar.com/wp-content/themes/comedy/images/comedy/wood-bg.png\"
+        />\n                    </div>\n                </div>\n\n\t<div id=\"main\"
+        class=\"clearfix\">\n\n\t\t<div id=\"primary\">\n\t\t\t<div id=\"content\"
+        role=\"main\">\n\n\t\t\t\t\n\t\t\t\t\t\n<article id=\"post-6\" class=\"post-6
+        page type-page status-publish hentry\">\n\t<header class=\"entry-header\">\n\t\t<h1
+        class=\"entry-title\">Line Up</h1>\n\t</header><!-- .entry-header -->\n        <div
+        class=\"ie7-list\">\n\t\t\t<div class=\"bg-page-default-top\">&nbsp;</div>\n\n\t\t\t<div
+        class=\"entry-content page-list\">\n\t\t\t\t<div class=\"page-list-top\"></div>\n\t\t\t\t<div
+        class=\"page-list-left\">\n\t\t\t\t\t<div class=\"page-list-right\">\n\n\t\t\t\t\t\t<div
+        class=\"page-list-bottom\">\n\t\t\t\t\t\t\t<div class=\"page-list-middle\">\n\t\t\t\t\t\t\t\t<div
+        class=\"page-list-middle-bottom\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div
+        class=\"shows-container\">\n\t<div class=\"shows-search-bar\">\n\t\t<div class=\"show-search-title\">\n\t\t\t<span
+        class=\"white\">Wednesday</span> October 16, 2013\t\t</div>\n\t\t<div class=\"show-search-form\">\n\t\t\t\t\t\t\t<form
+        method=\"get\" id=\"filter-lineup-shows-form\" action=\"\">\n\t\t\t\t\t<div
+        class=\"select-date-group-label\">Choose a day:</div>\n\t\t\t\t\t<select name=\"_date\"
+        class=\"dropkick filter-lineup-shows\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\tselected  \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1381881600\"><span
+        class=\"white\">Wednesday</span> October 16, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1381968000\"><span
+        class=\"white\">Thursday</span> October 17, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382054400\"><span
+        class=\"white\">Friday</span> October 18, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382140800\"><span
+        class=\"white\">Saturday</span> October 19, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382227200\"><span
+        class=\"white\">Sunday</span> October 20, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382313600\"><span
+        class=\"white\">Monday</span> October 21, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382400000\"><span
+        class=\"white\">Tuesday</span> October 22, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382486400\"><span
+        class=\"white\">Wednesday</span> October 23, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1382572800\"><span
+        class=\"white\">Thursday</span> October 24, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1383696000\"><span
+        class=\"white\">Wednesday</span> November 6, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1383782400\"><span
+        class=\"white\">Thursday</span> November 7, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<option
+        \n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\tvalue=\"\n\t\t\t\t\t\t\t1383955200\"><span
+        class=\"white\">Saturday</span> November 9, 2013\t\t\t\t\t\t\t</option>\n\t\t\t\t\t\t\t\t\t\t\t</select>\n\t\t\t\t</form>\n\t\t\t\t\t</div>\n\t</div>\n\t\t<div
+        class=\"show\">\n  \t\t\t<h3>\n    \t\t\t<span class=\"open-close-comedians-content\">\n\t\t
+        \ \t\t\t<span class=\"show-time closed\" close=\"close_800pmMacDougalStreet\">\n\t\t
+        \ \t\t\t\t8:00 pm show\t\t  \t\t\t\t | MacDougal Street\t\t  \t\t\t</span>\n\t\t\t\t</span>\n
+        \ \t\t\t</h3>\n\t\t\t<div class=\"comedians\">\n\t      \t\t<div class=\"comedian-block
+        clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div class=\"comedian-block-image\">\n\t\t\t\t\t\t<img
+        src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/MikeYard-e1361393787230-70x70.jpeg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\t\t\t\t\t\t\t<strong>MC for
+        this show:</strong> \n\t\t\t\t\t\tMike Yard\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://mikeyard.com/home.cfm\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/gregrogell-e1361318803193-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tGregg Rogell\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE \"LOUIE\" CK SHOW, \"THE ARISTOCRATS\", \"THE CONAN O'BRIEN SHOW\", COMEDY
+        CENTRAL'S \"TOUGH CROWD\" AND \"THE TONIGHT SHOW\".\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.imdb.com/name/nm0736612/\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/jefflaub-e1361323795126-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tJeff Lamp\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE TONIGHT SHOW, COMEDY CENTRAL, and MAJOR MOTION PICTURES\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/keithrobinson-e1361324066184-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tKeith Robinson\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        CONAN O'BRIEN SHOW, TBS'S \"ARE WE THERE YET\", WANDA SYKES SHOW, COMEDY CENTRAL'S
+        \"TOUGH CROWD\", HBO.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"http://www.comediankeithrobinson.com/\"
+        target=\"_blank\" class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/nickgriffin-e1361317029345-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tNick Griffin\t\t\t\t\t\t</span>\n\t\t\t\t\t\t9
+        \"LATE SHOW WITH DAVID LETTERMAN\" APPEARANCES AND AS SEEN ON \"THE HALF HOUR\"
+        COMEDY CENTRAL PRESENTS.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"http://nickgriffin.net/\"
+        target=\"_blank\" class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_800pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/greerbarnes-e1361318041796-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tGreer Barnes\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND
+        \"THE DAVID LETTERMAN SHOW\".\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.comedycentral.com/comedians/greer-barnes\" target=\"_blank\"
+        class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \ \t\t\t<div class=\"close_800pmMacDougalStreet make-comedy-reservation\"
+        >\n\t\t\t\t\t<a href=\"http://www.comedycellar.com/reservation\" class=\"make-comedy-reservation-link\">Make
+        a Reservation</a>\n\t\t  \t\t</div>\n\t\t\t</div>\n\t\t\t<br>\n\t\t</div>\n\t\t\n\t\t<div
+        class=\"show\">\n  \t\t\t<h3>\n    \t\t\t<span class=\"open-close-comedians-content\">\n\t\t
+        \ \t\t\t<span class=\"show-time closed\" close=\"close_1000pmMacDougalStreet\">\n\t\t
+        \ \t\t\t\t10:00 pm show\t\t  \t\t\t\t | MacDougal Street\t\t  \t\t\t</span>\n\t\t\t\t</span>\n
+        \ \t\t\t</h3>\n\t\t\t<div class=\"comedians\">\n\t      \t\t<div class=\"comedian-block
+        clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div class=\"comedian-block-image\">\n\t\t\t\t\t\t<img
+        src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/MikeYard-e1361393787230-70x70.jpeg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\t\t\t\t\t\t\t<strong>MC for
+        this show:</strong> \n\t\t\t\t\t\tMike Yard\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://mikeyard.com/home.cfm\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/04/GaryGulman-e1366532955310-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tGary Gulman\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        DANE COOK'S \"TOURGASM\", \"THE LETTERMAN SHOW\", \"THE TONIGHT SHOW\", AND
+        \"LAST COMIC STANDING\".\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"http://www.garygulman.com/\"
+        target=\"_blank\" class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/04/johnmulaney21-e1366137326908-70x70.jpeg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tJohn Mulaney\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        SNL,THE \"DAVID LETTERMAN SHOW\", AND THE \"CONAN O'BRIEN SHOW\".\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.johnmulaney.com/\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/10/james-smith1-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tJames Smith\t\t\t\t\t\t</span>\n\t\t\t\t\t\tAUSTRALIA'S
+        BEST LIVE STAND UP COMEDIANS, FROM \"ROVE LIVE\", COMEDY CHANNEL'S HEADLINERS,
+        COMEDY CENTRAL.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a href=\"http://www.jamessmith.com.au\"
+        target=\"_blank\" class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/09/url-1-17-11-43-e1378242971971-70x70.jpeg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tCarmen Lynch\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE DAVID LETTERMAN SHOW, COMEDY CENTRAL\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.carmenlynch.com/\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1000pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/greerbarnes-e1361318041796-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tGreer Barnes\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE \"DAVE CHAPPELLE SHOW\", \"TOUGH CROWD\", \"FOR LOVE OF THE GAME\", AND
+        \"THE DAVID LETTERMAN SHOW\".\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.comedycentral.com/comedians/greer-barnes\" target=\"_blank\"
+        class=\"comedian-website-link\">View Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \ \t\t\t<div class=\"close_1000pmMacDougalStreet make-comedy-reservation\"
+        >\n\t\t\t\t\t<a href=\"http://www.comedycellar.com/reservation\" class=\"make-comedy-reservation-link\">Make
+        a Reservation</a>\n\t\t  \t\t</div>\n\t\t\t</div>\n\t\t\t<br>\n\t\t</div>\n\t\t\n\t\t<div
+        class=\"show\">\n  \t\t\t<h3>\n    \t\t\t<span class=\"open-close-comedians-content\">\n\t\t
+        \ \t\t\t<span class=\"show-time closed\" close=\"close_1130pmMacDougalStreet\">\n\t\t
+        \ \t\t\t\t11:30 pm show\t\t  \t\t\t\t | MacDougal Street\t\t  \t\t\t</span>\n\t\t\t\t</span>\n
+        \ \t\t\t</h3>\n\t\t\t<div class=\"comedians\">\n\t      \t\t<div class=\"comedian-block
+        clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div class=\"comedian-block-image\">\n\t\t\t\t\t\t<img
+        src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/MikeYard-e1361393787230-70x70.jpeg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\t\t\t\t\t\t\t<strong>MC for
+        this show:</strong> \n\t\t\t\t\t\tMike Yard\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        BAD BOYS OF COMEDY, DEF COMEDY JAM, AND SHOWTIME AT THE APOLLO.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://mikeyard.com/home.cfm\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/04/marknormand-e1366074149644-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tMark Normand\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        THE \"CONAN O'BRIEN SHOW\", AND COMEDY CENTRAL.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://marknormandcomedy.com/\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/04/WilSylvince1-e1366141371904-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tWil Sylvince\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFOUNDER
+        & PRODUCER NBC'S SHORT CUTS FESTIVAL, COMEDY CENTRAL'S \"STAND UP REVELATION\",
+        SHOWTIME'S \"THE BIG BLACK COMEDY SHOW\", DAMON WAYENS: THE UNDERGROUND, AND
+        WRITER ON THE CHAPPELLE SHOW.\t\t\t\t\t\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t<a
+        href=\"http://www.wilsylvince.com/bio.html\" target=\"_blank\" class=\"comedian-website-link\">View
+        Website</a>\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t      \t\t<div
+        class=\"comedian-block clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/sansoder-e1361322604726-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tDan Soder\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        COMEDY CENTRAL AND AS SEEN ON MONTREAL'S \"JUST FOR LAUGHS\".\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/kurtmetzger-e1361325100619-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tKurt Metzger\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        \"LAST COMIC STANDING\", IFC'S HIT \"Z ROCK\" AND \"WHITE BOYS IN THE HOOD\".
+        \ WRITER FOR \"THE DAVE CHAPPELLE SHOW\".\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t
+        \     \t\t<div class=\"comedian-block clearfix close_1130pmMacDougalStreet\">\n\t\t\t\t\t<div
+        class=\"comedian-block-image\">\n\t\t\t\t\t\t<img src=\"http://www.comedycellar.com/wp-content/uploads/2013/02/jayoakerson-e1361325356288-70x70.jpg\"
+        >\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"comedian-block-desc\">\n\t\t\t\t\t\t<span
+        class=\"comedian-block-desc-name\">\n\t\t\t\t\t\tJay Oakerson\t\t\t\t\t\t</span>\n\t\t\t\t\t\tFROM
+        \"LOUIE\", \"RON & FEZ SHOW\", HIS PODCAST \"LEGION OF SKANKS\", FROM SHOW
+        ON IFC CHANNEL \"Z ROCK\", COMEDY CENTRALS \"HALF HOUR SPECIAL\", HOST OF
+        \"MOVIES ON TAP\".\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t  \t\t\t<div
+        class=\"close_1130pmMacDougalStreet make-comedy-reservation\" >\n\t\t\t\t\t<a
+        href=\"http://www.comedycellar.com/reservation\" class=\"make-comedy-reservation-link\">Make
+        a Reservation</a>\n\t\t  \t\t</div>\n\t\t\t</div>\n\t\t\t<br>\n\t\t</div>\n\t\t\n\t\t\t\n\t\t\n\t\n<div
+        class=\"clearfix\"><br /></div>\n</div>\n<div class=\"shadow-divider\"></div>\n<div></div>\n<p><strong>We
+        do our lineups at the end of the week in order to make sure we have the very
+        best acts available. Generally they go up on Thursdays for the coming weekend.</strong></p>\n<p>&nbsp;</p>\n<p><strong><span
+        style=\"color: #a31a0d;\">NOTE: </span>INDIVIDUAL COMEDIAN APPEARANCE SUBJECT
+        TO CHANGE WITHOUT NOTICE</strong></p>\n<p><!-- Begin Inspectlet Embed Code
+        --><br />\n<script type=\"text/javascript\" id=\"inspectletjs\">\n\twindow.__insp
+        = window.__insp || [];\n\t__insp.push(['wid', 568957340]);\n\t(function()
+        {\n\t\tfunction __ldinsp(){var insp = document.createElement('script'); insp.type
+        = 'text/javascript'; insp.async = true; insp.id = \"inspsync\"; insp.src =
+        ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js';
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp,
+        x); }\n\t\tif (window.attachEvent){\n\t\t\twindow.attachEvent('onload', __ldinsp);\n\t\t}else{\n\t\t\twindow.addEventListener('load',
+        __ldinsp, false);\n\t\t}\n\t})();\n</script><br />\n<!-- End Inspectlet Embed
+        Code --></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div
+        class=\"page-list-bottom-end\"></div>\n\t\t\t\t</div>\n\t\t   </div><!-- .entry-content
+        -->\n\t\t</div>\n</article><!-- #post-6 -->\n\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t</div><!--
+        #content -->\n\t\t</div><!-- #primary -->\n\n\r\n\t</div><!-- #main -->\r\n\r\n\t<footer
+        id=\"colophon\" role=\"contentinfo\">\r\n            <div class=\"footer-menu\">\r\n
+        \               <div class=\"menu clearfix\"><ul id=\"menu-bottom_menu\" class=\"clearfix
+        menu\"><li id=\"menu-item-27\" class=\"menu-item menu-item-type-post_type
+        menu-item-object-page menu-item-27\"><a href=\"http://www.comedycellar.com/reservation/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Reservations</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-26\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page current-menu-item page_item
+        page-item-6 current_page_item menu-item-26\"><a href=\"http://www.comedycellar.com/line-up/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Line Up</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-502\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-502\"><a href=\"http://www.comedycellar.com/photogallery/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Photos</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-24\" class=\"menu-item
+        menu-item-type-post_type menu-item-object-page menu-item-24\"><a href=\"http://www.comedycellar.com/olive-tree-cafe/\"><span
+        class=\"before\"></span><span class=\"menu-item-cont\">Olive Tree</span><span
+        class=\"after\"></span></a></li>\n<li id=\"menu-item-376\" class=\"menu-item
+        menu-item-type-custom menu-item-object-custom menu-item-376\"><a target=\"_blank\"
+        href=\"http://www.comedycellarclasses.com/\"><span class=\"before\"></span><span
+        class=\"menu-item-cont\">Classes</span><span class=\"after\"></span></a></li>\n<li
+        id=\"menu-item-22\" class=\"menu-item menu-item-type-post_type menu-item-object-page
+        menu-item-22\"><a href=\"http://www.comedycellar.com/contact-us/\"><span class=\"before\"></span><span
+        class=\"menu-item-cont\">Contact</span><span class=\"after\"></span></a></li>\n</ul></div>
+        \           </div>\r\n\r\n                \r\n                    <div class=\"sign-up-container-main\">\r\n
+        \                       <a class=\"reservation-banner-bottom\" href=\"/reservation\"></a>\r\n\r\n
+        \                       <div style=\"float:left; margin:20px 10px; \">\r\n
+        \                           <a href=\"#\"><img src=\"http://www.comedycellar.com/wp-content/uploads/2013/01/banner.png\"
+        /></a>\r\n                        </div>\r\n\r\n                        <div
+        class=\"sign-up-container\">\r\n                            <div class=\"sign-up-container-title\">STAY
+        UPDATED</div>\r\n                            <div class=\"sign-up-container-subtext\">Sign
+        up to receive the latest<br>updates from The Comedy Cellar</div>\r\n                            <form
+        action=\"\" method=\"POST\" id=\"newsletter\" >\r\n                                <input
+        type=\"text\" id=\"newsletteremail\" class=\"newsletterTextInput b-newsletter__input\"
+        name=\"email\" value=\"\">\r\n                                <input type=\"hidden\"
+        value=\"1\" name=\"isnewsletter\">\r\n                                <input
+        type=\"submit\"class=\"b-newsletter__submit\" name=\"submit\" value=\"sing
+        up\">\r\n                                                            </form>\r\n
+        \                       </div>\r\n                    </div>\r\n\r\n                            <div
+        class=\"footer-sub-container clearfix\">\r\n                <div class=\"copyright\">\r\n
+        \                   <span >&copy;  2013 The Comedy Cellar. All rights reserved.&nbsp;&nbsp;|&nbsp;&nbsp<a
+        href=\"http://www.comedycellar.com/privacy-policy\">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp<a
+        href=\"http://www.comedycellar.com/terms-conditions\">Terms & Conditions</a></span>\r\n
+        \               </div>\r\n\t\t\t\t<div class=\"connect\">\r\n\t\t\t\t\t <table>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<div>CONNECT
+        WITH US</div>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t\t<td>\r\n\t\t\t\t\t\t\t\t<a
+        class=\"twitter\" href=\"https://twitter.com/NYCComedyCellar\" target=\"_blank\"></a>\r\n\t\t\t\t\t\t\t</td>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</div>\r\n
+        \           </div>\r\n            <div class=\"website-credits\">\r\n                <a
+        href=\"http://www.comedycellar.com/website-credits\">Website Credits</a>\r\n
+        \           </div>\r\n\r\n\t</footer><!-- #colophon -->\r\n</div>\r\n</div>\r\n</div><!--
+        #page -->\r\n\r\n\t<!-- Better Backgrounds -->\r\n\t\t\t<img id=\"bg-rand\"
+        class=\"bg-rand\" src=\"http://www.comedycellar.com/wp-content/uploads/bg-images//main-bg.gif\"
+        \ alt=\"\" />\r\n\t\t\t\t<img id=\"bg-preloader\" style=\"display:none;\"
+        \ src=\"http://www.comedycellar.com/wp-content/uploads/bg-images//main-bg.gif\"
+        alt=\"Hidden Preloader\"/>\r\n\t\t\t\t<script type=\"text/javascript\">\r\n\t\t\t\t\t\tvar
+        bbg_imgObject = jQuery(\"#bg-rand\");\r\n\t\t\tvar bbg_imgPreload = jQuery(\"#bg-preloader\");\r\n\t\t\t\t\t\t\tbbg_imgObject.hide();\r\n\t\t\t\tbbg_imgPreload.load(\r\n\t\t\t\t\tfunction(){\t//fade
+        the image in once it is done loading, then start the continuous slideshow
+        if applicable\r\n\t\t\t\t\t\tbbg_imgPreload.unbind();\t//remove the load event\r\n\t\t\t\t\t\t//bbg_imgObject.fadeIn(0,
+        \"linear\" );\r\n\t\t\t\t\t\tbbg_imgObject.show();\r\n\t\t\t\t\t}\r\n\t\t\t\t).each(function(){
+        // this is a hack for IE6 and Opera to ensure that the slideshow starts. sometimes
+        .load() is not reliable in browsers\r\n\t\t\t\t\tif(jQuery.browser.msie &&
+        parseInt(jQuery.browser.version) == 6 || jQuery.browser.opera)\r\n\t\t\t\t\t{\r\n\t\t\t\t\t\tjQuery(this).trigger(\"load\");\r\n\t\t\t\t\t}\r\n\t\t\t\t});\r\n\t\t\t\tbbg_imgObject.show();\r\n\t\t\t\tbbg_imgObject.css({'position':'fixed'});\r\n\t\t\t\t\t\t</script>\r\n\t\t\r\n\t\t<!--
+        End Better Backgrounds -->\r\n\t<script type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/comedy-lineup/js/modules/jquery.dropkick.js'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/comedy-lineup/js/comedy-lineup.js'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar thickboxL10n = {\"next\":\"Next
+        >\",\"prev\":\"< Prev\",\"image\":\"Image\",\"of\":\"of\",\"close\":\"Close\",\"noiframes\":\"This
+        feature requires inline frames. You have iframes disabled or your browser
+        does not support them.\",\"loadingAnimation\":\"http:\\/\\/www.comedycellar.com\\/wp-includes\\/js\\/thickbox\\/loadingAnimation.gif\",\"closeImage\":\"http:\\/\\/www.comedycellar.com\\/wp-includes\\/js\\/thickbox\\/tb-close.png\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='http://www.comedycellar.com/wp-includes/js/thickbox/thickbox.js?ver=3.1-20111117'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/nextgen-all-galleries/js/nextgen-all-galleries.js?ver=1.0.0'></script>\n<script
+        type='text/javascript' src='http://www.comedycellar.com/wp-content/plugins/nextgen-all-galleries/js/modules/jquery.ad-gallery.js?ver=1.0.0'></script>\n<script
+        type=\"text/javascript\">\r\n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount',
+        'UA-11761822-2']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n  (function()
+        {\r\n    var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol ?
+        'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\r\n  })();\r\n\r\n\r\n                var __insp = __insp || [];\r\n                __insp.push(['wid',
+        2077826011]);\r\n                (function() {\r\n                        var
+        a = window.onload;\r\n                        function __ldinsp(){var insp
+        = document.createElement('script'); insp.type = 'text/javascript'; insp.async
+        = true; insp.id = \"inspsync\"; insp.src = ('https:' == document.location.protocol
+        ? 'https' : 'http') + '://www.inspectlet.com/inspect_nojquery/2077826011.js';
+        document.getElementsByTagName(\"head\")[0].appendChild(insp); }\r\n                        window.onload
+        = (typeof window.onload != 'function') ? __ldinsp : function() { a(); __ldinsp();
+        };\r\n                })();\r\n\r\n</script>\r\n<script src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/jquery.placeholder.js\"></script>\r\n<script
+        src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/jquery.validate.min.js\"></script>\r\n<script
+        src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/all.js\"></script>\r\n<script
+        src=\"http://www.comedycellar.com/wp-content/themes/comedy/js/scrollability.js\"></script>\r\n\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Wed, 16 Oct 2013 21:04:10 GMT
+recorded_with: VCR 2.6.0

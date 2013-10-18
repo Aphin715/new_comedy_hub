@@ -11,6 +11,7 @@ class ComedyClubsController < ApplicationController
   # GET /comedy_clubs/1.json
   def show
     @comedy_club = ComedyClub.find(params[:id])
+    @comedy_club.update_shows
   end
 
   # GET /comedy_clubs/new

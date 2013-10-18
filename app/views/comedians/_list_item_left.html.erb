@@ -5,6 +5,6 @@
   </article>
 
   <figure class="cbp-so-side cbp-so-side-right">
-     <%= video_tag comedian.youtube_url %>
+     <%= content_tag(comedian.youtube_embed comedian.youtube_url) %>
   </figure>
 </section>

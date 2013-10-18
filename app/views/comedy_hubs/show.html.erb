@@ -1,8 +1,8 @@
 
 
 <% @clubs.each do |club| %>
-  <% if club.shows.future.present? %>
-  <h2><%= club.name %> </h2>
+  <!-- # <%  club.shows.future.present? %> -->
+  <h2><u><%= club.name %></u> </h2>
 
   <% club.shows.future.each do |show| %>
   <h4><%= show.title %> </h4>
@@ -13,4 +13,4 @@
       <% end %>
     <% end %>
   <%- end -%>
-<%- end -%>
+

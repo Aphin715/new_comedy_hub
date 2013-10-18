@@ -11,6 +11,7 @@ gem 'backstretch-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'ransack'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -38,6 +39,11 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development, :test do
