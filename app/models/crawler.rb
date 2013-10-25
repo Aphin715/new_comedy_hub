@@ -5,14 +5,16 @@ require 'open-uri'
 class Crawler
   def initialize(url)
     @url = url
-    @page = Nokogiri::HTML(open("http://www.comedycellar.com/line-up/"))
+    @page = Nokogiri::HTML(open(url))
   end
 
   def shows
     shows = []
 
+    date = @page.css('.show-search-title').text.gsub(/[\n|\t]/, "")
+
     @page.css('.show').each do |content|
-      shows << ShowCrawler.new(content)
+      shows << ShowCrawler.new(content, date: date)
     end
 
     shows
@@ -24,13 +26,18 @@ class Crawler
 end
 
 class ShowCrawler
-  def initialize(content)
+  attr_accessor :date
+
+  def initialize(content, attributes={})
+    @date = attributes.fetch(:date) { Date.today }
     @content = content
   end
 
   def start_time
     text = @content.css('.show-time').text
     matches = text.match /([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9] [pmPM]{2}/
-    matches[0]
+    time = matches[0]
+
+    DateTime.parse(@date + time)
   end
 end

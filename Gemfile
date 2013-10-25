@@ -11,7 +11,8 @@ gem 'backstretch-rails'
 gem 'devise'
 gem 'simple_form'
 gem 'ransack'
-
+gem 'will_paginate-bootstrap'
+gem 'alphabetical_paginate'
 # Use postgresql as the database for Active Record
 gem 'pg'
 

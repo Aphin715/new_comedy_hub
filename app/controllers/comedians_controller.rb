@@ -4,7 +4,7 @@ class ComediansController < ApplicationController
   # GET /comedians
   # GET /comedians.json
   def index
-    @comedians = Comedian.all
+    @comedians= Comedian.order("LOWER(first_name)").paginate(:page => params[:page], :per_page => 10)
   end
 
   # GET /comedians/1
