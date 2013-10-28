@@ -1,8 +1,13 @@
 @import "twitter/bootstrap";
 
-// # .welcome-index { background-image: image-url("brickwall.jpg"); }
+.welcome-index { background-image: image-url("brickwall.jpg"); }
+// Comedy Hub styling
+.comedian a{
+    color:black;
+    font-weight:bold;
+}
 
-
+//
 .show-title{
     font-weight:bold;
 }
@@ -221,7 +226,7 @@ label.collection_radio_buttons {
 
 }
 .cbp-so-scroller{
-    background-color:#D1DBBD;
+    background-color:#C8D9C7;
 }
 .cbp-so-scroller p{
 color:#2A2C2B;
@@ -232,14 +237,14 @@ color:#2A2C2B;
 }
 
 .comedy_clubs-index{
-    backbround-color:#D9CB9E;
+    backbround-color:#C8D9C7;
 }
 .navbar-default{
-    background-color:#193441;
+    background-color:#4F5864;
 
 }
 
 body{
-    background-color:#3E606F;
+    background-color:#333E52;
 
 }
