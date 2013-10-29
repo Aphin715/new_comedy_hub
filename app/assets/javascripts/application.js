@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require vendor/modernizr.min
 // Include all twitter's javascripts
 //= require twitter/bootstrap
