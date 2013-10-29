@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 gem 'bcrypt-ruby', '3.0.1'
@@ -33,7 +35,6 @@ gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
-gem 'rails_12factor', group: :production
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
@@ -45,6 +46,9 @@ end
 group :test do
   gem 'vcr'
   gem 'webmock'
+end
+group :production do
+  gem 'rails_12factor'
 end
 
 group :development, :test do
