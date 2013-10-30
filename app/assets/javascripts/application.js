@@ -19,3 +19,4 @@
 //= require vendor/cbpScroller
 //= require_tree .
 //= require backstretch
+//= require 'jquery.backstretch'

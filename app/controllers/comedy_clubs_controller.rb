@@ -4,14 +4,15 @@ class ComedyClubsController < ApplicationController
   # GET /comedy_clubs
   # GET /comedy_clubs.json
   def index
-    @comedy_clubs = ComedyClub.all
+    @comedy_clubs = ComedyClub.order("LOWER(name)")
   end
 
   # GET /comedy_clubs/1
   # GET /comedy_clubs/1.json
   def show
     @comedy_club = ComedyClub.find(params[:id])
-    @comedy_club.update_shows
+    #Use this when you want to scrape...
+    #@comedy_club.update_shows
   end
 
   # GET /comedy_clubs/new

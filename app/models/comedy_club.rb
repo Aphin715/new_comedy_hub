@@ -4,12 +4,12 @@ class ComedyClub < ActiveRecord::Base
   has_many :comedians, through: :acts
 
   mount_uploader :image, ImageUploader
+#Use this when you want to scrape.
+  # def update_shows
+  #   crawler = Crawler.new(url_to_scrape)
 
-  def update_shows
-    crawler = Crawler.new(url_to_scrape)
-
-    crawler.shows.each do |show|
-      Show.create(time: show.time)
-    end
-  end
+  #   crawler.shows.each do |show|
+  #     Show.create(time: show.time)
+  #   end
+  # end
 end
