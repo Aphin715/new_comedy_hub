@@ -17,6 +17,7 @@ gem 'will_paginate-bootstrap'
 gem 'alphabetical_paginate'
 gem 'kaminari'
 gem 'nokogiri'
+gem 'fog'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
