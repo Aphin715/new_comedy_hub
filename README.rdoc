@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Comedy Hub (http://comedy-hub.herokuapp.com) is a comedian aggregator for New York Comedians.
 
-Things you may want to cover:
+With an updated Comedy Hub, you can:
 
-* Ruby version
+See which comedians are preforming different clubs are certain times.
 
-* System dependencies
+==Next Steps
 
-* Configuration
+- Be able to scrape from all fo the different comedy club sites so data isn't added manually.
 
-* Database creation
+- Add more comedians
 
-* Database initialization
+- Add more cities
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Ruby 2.0.0p247
+Rails 4.0.0
+PostgreSQL (rake db:migrate to set up the database, run rake db:test:prepare to set up the test database)
+Run tests using rake spec or rspec [TEST TO RUN]
