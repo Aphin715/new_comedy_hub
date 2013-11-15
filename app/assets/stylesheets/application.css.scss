@@ -1,8 +1,34 @@
 @import "twitter/bootstrap";
 
-// # .welcome-index { background-image: image-url("brickwall.jpg"); }
+.center {
+    text-align:center;
 
+}
+.left{
+width:300px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+float:left;
 
+}
+
+.right{
+    float:right;
+}
+
+.welcome-index { background-image: image-url("brickwall.jpg"); }
+// Comedy Hub styling
+.comedian a{
+    color:black;
+    font-weight:bold;
+}
+
+.bio p{
+    color: white;
+}
+
+//
 .show-title{
     font-weight:bold;
 }
@@ -221,25 +247,30 @@ label.collection_radio_buttons {
 
 }
 .cbp-so-scroller{
-    background-color:#D1DBBD;
+    background-color:#FFF8DF;
 }
 .cbp-so-scroller p{
 color:#2A2C2B;
 }
 
 .container {
-    backbround-color:#374140;
+    backbround-color:#FFF8DF;
+
 }
 
 .comedy_clubs-index{
-    backbround-color:#D9CB9E;
+    backbround-color:#C8D9C7;
 }
 .navbar-default{
-    background-color:#193441;
+    background-color:#374140;
+    font-family: Geneva;
+    font-weight:bold;
+
 
 }
 
 body{
-    background-color:#3E606F;
+    background-color:#D9CB9E;
+
 
 }

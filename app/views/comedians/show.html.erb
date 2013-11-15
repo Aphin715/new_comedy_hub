@@ -1,21 +1,16 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @comedian.name  %>
+<p class="center">
+ <h1 class="center"><%= @comedian.name  %></h1>
 </p>
 
-<p>
-  <strong>Bio:</strong>
+<div class ="left">
   <%= @comedian.bio %>
-</p>
-
-<p>
-  <strong>Youtube url:</strong>
-  <iframe width="560" height="315" src="//www.youtube.com/embed/bMzqiGG5Udg" frameborder="0" allowfullscreen></iframe>
-</p>
+</div>
 
 
+<div class="center">
+  <%= content_tag(@comedian.youtube_embed @comedian.youtube_url) %>
 
-<%= link_to 'Edit', edit_comedian_path(@comedian) %> |
-<%= link_to 'Back', comedians_path %>
+</div>
+

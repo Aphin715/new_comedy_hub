@@ -1,15 +1,18 @@
-
+<% t=Time.new %>
+<h2 class="center" style="color:#2A2C2B"><u><%= t.strftime("%A, %B %e") %></u></h2>
 
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
-  <h2><u><%= club.name %></u> </h2>
+  <h1><u><%= club.name %><u> </h1>
 
   <% club.shows.future.each do |show| %>
-  <h4><%= show.title %> </h4>
-  <h5><%= show.pretty_start_time %></h5>
+  <h3 class="center"><%= show.pretty_start_time %></h3>
   <% show.comedians.each do |comedian| %>
-    <%= comedian.name %>
-
+  <div>
+    <ol><h4 class="comedian"><%= link_to simple_format(comedian.name),comedian_path(comedian) %></h4>
+      <p class="bio"><u><%= comedian.bio %></u></p>
+    </ol>
+  </div>
       <% end %>
     <% end %>
   <%- end -%>

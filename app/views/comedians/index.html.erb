@@ -6,7 +6,7 @@
       comedian: comedian %>
   <%- end -%>
 </div>
-
+<%= will_paginate @comedian, renderer: BootstrapPagination::Rails %>
 <script>
   new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 </script>
