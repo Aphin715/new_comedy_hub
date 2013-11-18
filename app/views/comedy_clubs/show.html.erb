@@ -2,35 +2,15 @@
 
 
  <h1 class="center"> <%= @comedy_club.name %></h1>
+ <br>
+ <%= @comedy_club.description %>
+ <br>
+  <%= @comedy_club.location %>
 
- <h4 class "center"> <%= @comedy_club.location %> </h4>
+<br>
 
-<p>
-  <strong>Description:</strong>
-  <%= @comedy_club.description %>
-</p>
-
-<p>
-  <strong>Website:</strong>
-  <%= @comedy_club.website %>
-</p>
-
-<p>
-  <strong> Shows </strong>
-  <ul>
-    <% @comedy_club.shows.each do |show| %>
-      <li>
-        <%= show.title %>
-
-        <ul>
-          <% show.comedians.each do |comedian| %>
-            <li><%= comedian.name %></li>
-          <% end %>
-        </ul>
-      </li>
-    <% end %>
-  </ul>
-</p>
+  <%= link_to @comedy_club.name, @comedy_club.website %>
+<br>
 
 <%= link_to 'Edit', edit_comedy_club_path(@comedy_club) %> |
 <%= link_to 'Back', comedy_clubs_path %>
