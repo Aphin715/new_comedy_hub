@@ -1,31 +1,25 @@
 class ComedyClubsController < ApplicationController
   before_action :set_comedy_club, only: [:show, :edit, :update, :destroy]
 
-  # GET /comedy_clubs
-  # GET /comedy_clubs.json
+
   def index
     @comedy_clubs = ComedyClub.order("LOWER(name)")
   end
 
-  # GET /comedy_clubs/1
-  # GET /comedy_clubs/1.json
+
   def show
     @comedy_club = ComedyClub.find(params[:id])
     #Use this when you want to scrape...
     #@comedy_club.update_shows
   end
 
-  # GET /comedy_clubs/new
   def new
     @comedy_club = ComedyClub.new
   end
 
-  # GET /comedy_clubs/1/edit
   def edit
   end
 
-  # POST /comedy_clubs
-  # POST /comedy_clubs.json
   def create
     @comedy_club = ComedyClub.new(comedy_club_params)
 
@@ -40,8 +34,6 @@ class ComedyClubsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /comedy_clubs/1
-  # PATCH/PUT /comedy_clubs/1.json
   def update
     respond_to do |format|
       if @comedy_club.update(comedy_club_params)
@@ -65,12 +57,10 @@ class ComedyClubsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_comedy_club
       @comedy_club = ComedyClub.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def comedy_club_params
       params.require(:comedy_club).permit(:name, :location, :website, :description, :image)
     end

@@ -1,28 +1,20 @@
 class ComediansController < ApplicationController
   before_action :set_comedian, only: [:show, :edit, :update, :destroy]
 
-  # GET /comedians
-  # GET /comedians.json
   def index
     @comedians= Comedian.order("LOWER(first_name)").paginate(:page => params[:page], :per_page => 10)
   end
 
-  # GET /comedians/1
-  # GET /comedians/1.json
   def show
   end
 
-  # GET /comedians/new
   def new
     @comedian = Comedian.new
   end
 
-  # GET /comedians/1/edit
   def edit
   end
 
-  # POST /comedians
-  # POST /comedians.json
   def create
     @comedian = Comedian.new(comedian_params)
 
@@ -37,8 +29,6 @@ class ComediansController < ApplicationController
     end
   end
 
-  # PATCH/PUT /comedians/1
-  # PATCH/PUT /comedians/1.json
   def update
     respond_to do |format|
       if @comedian.update(comedian_params)
@@ -51,8 +41,6 @@ class ComediansController < ApplicationController
     end
   end
 
-  # DELETE /comedians/1
-  # DELETE /comedians/1.json
   def destroy
     @comedian.destroy
     respond_to do |format|
@@ -62,12 +50,10 @@ class ComediansController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_comedian
       @comedian = Comedian.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
     def comedian_params
       params.require(:comedian).permit(:first_name, :last_name, :bio, :youtube_url, :image)
     end
