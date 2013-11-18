@@ -1,14 +1,14 @@
 == README
 
-Comedy Hub (http://comedy-hub.herokuapp.com) is a comedian aggregator for New York Comedians.
+Comedy Hub (http://comedy-hub.herokuapp.com) is a comedian aggregator for New York Comedians. When updated, it can show all of the comedy clubs in New York City and which comedians are performing there.
 
-With an updated Comedy Hub, you can:
-
-See which comedians are preforming different clubs are certain times.
+You can also check out videos of some of your favorite comedians.
 
 ==Next Steps
 
 - Be able to scrape from all fo the different comedy club sites so data isn't added manually.
+
+- Make it so if your favorite comedian is performing you will be notified via email.
 
 - Add more comedians
 

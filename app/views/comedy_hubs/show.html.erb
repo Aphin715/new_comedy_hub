@@ -3,7 +3,7 @@
 
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
-  <h1><u><%= club.name %><u> </h1>
+  <h1 class="club"><%= link_to club.name, comedy_club_path(club) %> </h1>
 
   <% club.shows.future.each do |show| %>
   <h3 class="center"><%= show.pretty_start_time %></h3>
