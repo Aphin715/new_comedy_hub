@@ -1,23 +1,23 @@
 @import "twitter/bootstrap";
-
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative|Rum+Raisin|Fontdiner+Swanky);
 .center {
     text-align:center;
 
 }
 .left{
-width:300px;
+width:450px;
 padding:10px;
 border:5px solid gray;
 margin:0px;
-float:left;
 
 }
 
 .right{
-    float:right;
+
+    width: 50%;
 }
 
-.welcome-index { background-image: image-url("brickwall.jpg"); }
+.welcome-index { background-image: image-url("bricks.jpg"); }
 // Comedy Hub styling
 .comedian a{
     color:black;
@@ -244,51 +244,65 @@ label.collection_radio_buttons {
 
 .cbp-so-scroller a {
     color:#FC4349;
+    font-family: 'Signika Negative', sans-serif;
 
 }
+
 .cbp-so-scroller{
-<<<<<<< HEAD
     background-color:#F7F7F7;
-=======
-    background-color:#f7f7f7;
->>>>>>> 381f20b9badfc5ea518f14355a1642a026623e9c
 }
+
 .cbp-so-scroller p{
 color:#2A2C2B;
+font-family: 'Signika Negative', sans-serif;
 }
 
-.container {
-<<<<<<< HEAD
-    backbround-color:#F7F7F7;
-=======
-    backbround-color:#6DBCDB;
->>>>>>> 381f20b9badfc5ea518f14355a1642a026623e9c
-
-}
 
 .comedy_clubs-index{
-<<<<<<< HEAD
-    backbround-color:#F7F7F7;
-=======
-    backbround-color:#6DBCDB;
->>>>>>> 381f20b9badfc5ea518f14355a1642a026623e9c
+    background-color:#F7F7F7;
 }
 .navbar-default{
     background-color:#D7DADB;
     font-family: Geneva;
     font-weight:bold;
-
-
 }
 
 body{
     background-color:#F7F7F7;
-<<<<<<< HEAD
-=======
 }
->>>>>>> 381f20b9badfc5ea518f14355a1642a026623e9c
-
 .comedian {
     font-size:15px;
+
+}
+.club a{
+    color:#2C3E50;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+.intro{
+
+    font-size:30px;
+    font-family: 'Rum Raisin', sans-serif;
+}
+
+.introp{
+    color: #D7DADB;
+    font-size:30px;
+}
+
+.box {
+    margin-top:33%;
+    background-color: rgb(158,114,102);
+    opacity: 0.91;
+}
+.btn-lg {
+    float:right;
+}
+.title{
+
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size : 75px;
+    opacity:1.0;
 
 }
