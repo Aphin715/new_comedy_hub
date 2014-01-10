@@ -1,11 +1,12 @@
 <% t=Time.new %>
 <h2 class="center" style="color:#2A2C2B"><u><%= t.strftime("%A, %B %e") %></u></h2>
 
+
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
-  <h1 class="club"><%= link_to club.name, comedy_club_path(club) %> </h1>
+  <h1 class="club"><%= link_to club.name, club.website %> </h1>
 
-  <% club.shows.future.each do |show| %>
+  <% club.shows.future.order("start_time").each do |show| %>
   <h3 class="center"><%= show.pretty_start_time %></h3>
   <% show.comedians.each do |comedian| %>
   <div>

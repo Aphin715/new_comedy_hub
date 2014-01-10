@@ -249,6 +249,7 @@ label.collection_radio_buttons {
 }
 
 .cbp-so-scroller{
+
     background-color:#F7F7F7;
 }
 
@@ -256,6 +257,8 @@ label.collection_radio_buttons {
 color:#2A2C2B;
 font-family: 'Signika Negative', sans-serif;
 }
+
+
 
 
 .navbar-default{
@@ -266,7 +269,9 @@ font-family: 'Signika Negative', sans-serif;
 
 body{
     background-color:#F7F7F7;
+
 }
+
 .comedian {
     font-size:15px;
 
@@ -288,11 +293,29 @@ body{
     font-size:30px;
 }
 
+body{
+    background-color:#F7F7F7;
+
+}
+
+
 .box {
     margin-top:33%;
     background-color: rgb(158,114,102);
-    opacity: 0.91;
+    opacity: 0.7;
 }
+
+div.box h1
+  {
+  font-weight:bold;
+  color:#000000;
+  }
+
+  div.box p
+  {
+  font-weight:bold;
+  color:#000000;
+  }
 .btn-lg {
     float:right;
 }

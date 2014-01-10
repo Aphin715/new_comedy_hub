@@ -2,7 +2,7 @@ class ComediansController < ApplicationController
   before_action :set_comedian, only: [:show, :edit, :update, :destroy]
 
   def index
-    @comedians= Comedian.order("LOWER(first_name)").paginate(:page => params[:page], :per_page => 10)
+    @comedians= Comedian.order("LOWER(last_name)").paginate(:page => params[:page], :per_page => 10)
   end
 
   def show
