@@ -1,5 +1,5 @@
  ComedyHub::Application.routes.draw do
-  root 'welcome#index'
+  root 'comedy_hubs#show'
   devise_for :users
 
 

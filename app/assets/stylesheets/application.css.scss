@@ -261,11 +261,7 @@ font-family: 'Signika Negative', sans-serif;
 
 
 
-.navbar-default{
-    background-color:#D7DADB;
-    font-family: Geneva;
-    font-weight:bold;
-}
+
 
 body{
     background-color:#F7F7F7;
@@ -326,3 +322,46 @@ div.box h1
     opacity:1.0;
 
 }
+
+.backy{
+    margin:10%;
+    background-color:black;
+
+}
+
+.navbar-default{
+    font-family: Geneva;
+    font-weight:bold;
+    background-image: image-url("bricking.jpg");
+    color:white ;
+    width:100%;
+    height:50px;
+
+}
+
+.navbar-nav > li > a {
+
+    color:white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-image: image-url("bricking.jpg")
+}
+
+.contains{
+    width:100%;
+    padding:0;
+    height:50px;
+
+}
+.navbar-brand a {
+    color:white;
+}
+
+
+
+
