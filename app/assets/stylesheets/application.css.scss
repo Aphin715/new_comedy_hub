@@ -1,5 +1,7 @@
 @import "twitter/bootstrap";
 @import url(http://fonts.googleapis.com/css?family=Signika+Negative|Rum+Raisin|Fontdiner+Swanky);
+
+
 .center {
     text-align:center;
 
@@ -17,7 +19,7 @@ margin:0px;
     width: 50%;
 }
 
-.welcome-index { background-image: image-url("bricks.jpg"); }
+//.welcome-index { background-image: image-url("brick9.jpg"); }
 // Comedy Hub styling
 .comedian a{
     color:black;
@@ -261,11 +263,7 @@ font-family: 'Signika Negative', sans-serif;
 
 
 
-.navbar-default{
-    background-color:#D7DADB;
-    font-family: Geneva;
-    font-weight:bold;
-}
+
 
 body{
     background-color:#F7F7F7;
@@ -300,9 +298,9 @@ body{
 
 
 .box {
-    margin-top:33%;
+    margin-top:10%;
     background-color: rgb(158,114,102);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 div.box h1
@@ -322,7 +320,74 @@ div.box h1
 .title{
 
     font-family: 'Fontdiner Swanky', cursive;
-    font-size : 75px;
+    font-size : 30px;
     opacity:1.0;
 
 }
+
+.backy{
+    margin:10%;
+    background-color:black;
+
+}
+
+.navbar-default{
+    font-family: Geneva;
+    font-weight:bold;
+    background-image: image-url("bring.png");
+    color:white ;
+    width:100%;
+    height:50px;
+
+}
+
+.navbar-nav > li > a {
+
+    color:rgb(250,245,241);}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 69px;
+    margin: 0 auto;
+    background-image: image-url("bring.png")
+}
+
+.contains{
+    width:100%;
+    padding:0;
+    height:50px;
+
+}
+.navbar-default .navbar-nav > li > a {
+color: white;
+margin-left:30px;
+}
+
+.navbar-default .navbar-brand {
+color: white;
+margin-left:40px;
+font-size:30px;
+}
+
+body {
+background-color: rgb(250,245,241);
+}
+
+.banner {
+
+    background-color:rgb(71,31,21);
+    color:white;
+    font-weight:bold;
+    font-family:Helvetica;
+    margin-top:5px;
+    height:25px;
+    padding:0;
+    text-align:center;
+    width:100% !important;
+}
+
+
+

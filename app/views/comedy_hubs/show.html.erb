@@ -1,3 +1,7 @@
+<div class ="banner">
+  <h4>Your one stop shop to see every comedian preforming in New York City</h4>
+</div>
+
 <% t=Time.new %>
 <h2 class="center" style="color:#2A2C2B"><u><%= t.strftime("%A, %B %e") %></u></h2>
 
@@ -5,6 +9,7 @@
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
   <h1 class="club"><%= link_to club.name, club.website %> </h1>
+  <%= link_to '<button type="button">Buy Tickets</button>'.html_safe, club.website %>
 
   <% club.shows.future.order("start_time").each do |show| %>
   <h3 class="center"><%= show.pretty_start_time %></h3>
