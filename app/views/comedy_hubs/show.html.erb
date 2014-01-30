@@ -1,5 +1,5 @@
 <div class ="banner">
-  <h4>Your one stop shop to see every comedian preforming in New York City</h4>
+  <h3>Your one stop shop to see every comedian preforming in New York City!</h3>
 </div>
 
 <% t=Time.new %>
@@ -8,8 +8,8 @@
 
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
-  <h1 class="club"><%= link_to club.name, club.website %> </h1>
-  <%= link_to '<button type="button">Buy Tickets</button>'.html_safe, club.website %>
+  <h1 class="club"><%= club.name %> </h1>
+
 
   <% club.shows.future.order("start_time").each do |show| %>
   <h3 class="center"><%= show.pretty_start_time %></h3>
@@ -17,9 +17,12 @@
   <div>
     <ol><h4 class="comedian"><%= link_to simple_format(comedian.name),comedian_path(comedian) %></h4>
       <p class="bio"><u><%= comedian.bio %></u></p>
+
     </ol>
   </div>
+
       <% end %>
+      <%= link_to '<button type="button" class="ticket">Buy Tickets</button>'.html_safe, club.website %>
     <% end %>
   <%- end -%>
 
