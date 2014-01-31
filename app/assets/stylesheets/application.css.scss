@@ -250,6 +250,10 @@ label.collection_radio_buttons {
 
 }
 
+.cbp-so-scroller {
+    color:#FC4349;
+    font-family: 'Signika Negative', sans-serif;
+}
 .cbp-so-scroller{
 
     background-color:#F7F7F7;
@@ -397,5 +401,16 @@ background-color: rgb(250,245,241);
 .ticket{
 
 float:right;
+border:2px solid;
+border-radius:15px;
+font-weight:bold;
+font-family:Helvetica;
+}
+
+.tile{
+    padding-bottom:20px;
+    border-bottom:1px solid black;
+    overflow:hidden;
+
 }
 

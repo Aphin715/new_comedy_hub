@@ -5,7 +5,7 @@
 <% t=Time.new %>
 <h2 class="center" style="color:#2A2C2B"><u><%= t.strftime("%A, %B %e") %></u></h2>
 
-
+<section class="tile">
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
   <h1 class="club"><%= club.name %> </h1>
@@ -22,7 +22,8 @@
   </div>
 
       <% end %>
-      <%= link_to '<button type="button" class="ticket">Buy Tickets</button>'.html_safe, club.website %>
+      <%= link_to '<button type="button" class="ticket">Make a Reservation</button>'.html_safe, club.website %>
+    </section>
     <% end %>
   <%- end -%>
 
