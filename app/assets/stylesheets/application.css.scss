@@ -361,11 +361,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 35px;
     margin: 0 auto;
     background-color:#F24C3D;
     //background-image: image-url("bring.png");
     z-index:1;
+    opacity:.999
 }
 
 .contains{
@@ -398,7 +399,7 @@ background-color: rgb(250,245,241);
     background-color:#AEA79F;
     color:white;
     font-weight:bold;
-    font-family:Helvetica;
+    font-family:'Signika Negative', sans-serif;
     margin-top:5px;
     height:27px;
     padding:0;
@@ -407,7 +408,7 @@ background-color: rgb(250,245,241);
     z-index:1;
     margin-top:50px;
     font-style:italic;
-    font-size:30px;
+    font-size:21px;
 }
 
 .ticket{
@@ -430,8 +431,8 @@ margin-right:10px;
 }
 .pagination{
     z-index:2;
-    margin-bottom:20px;
     position:relative;
     float:right;
+    margin-bottom:0px;
 }
 
