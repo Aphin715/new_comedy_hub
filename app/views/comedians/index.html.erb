@@ -1,11 +1,14 @@
 <body class="bold">
 <div id="cbp-so-scroller" class="cbp-so-scroller">
+
   <%- @comedians.each do |comedian| -%>
     <%= render "comedians/list_item_#{cycle('left', 'right')}",
       comedian: comedian %>
+
   <%- end -%>
+
 </div>
- <%= will_paginate @comedian, renderer: BootstrapPagination::Rails %>
+ <%=  will_paginate @comedian, renderer: BootstrapPagination::Rails %>
 <script>
   new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 </script>

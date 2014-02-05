@@ -8,7 +8,9 @@
 <section class="tile">
 <% @clubs.each do |club| %>
   <!-- # <%  club.shows.future.present? %> -->
+
   <h1 class="club"><%= club.name %> </h1>
+
 
 
   <% club.shows.future.order("start_time").each do |show| %>
