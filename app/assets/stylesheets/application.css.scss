@@ -361,7 +361,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 35px;
+    height: 34px;
     margin: 0 auto;
     background-color:#F24C3D;
     //background-image: image-url("bring.png");
@@ -435,4 +435,21 @@ margin-right:10px;
     float:right;
     margin-bottom:0px;
 }
+
+.pagination a{
+
+    color:#F24C3D;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus{
+
+    background-color:#F24C3D;
+    border:1px solid #F24C3D;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus{
+    color:#F24C3D;
+
+}
+
 
