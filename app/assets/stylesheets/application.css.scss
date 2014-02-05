@@ -4,6 +4,9 @@
 
 .center {
     text-align:center;
+    font-family:'Signika Negative', sans-serif;
+    font-weight:bold;
+    text-decoration:none;
 
 }
 .left{
@@ -423,12 +426,6 @@ box-shadow: 2px 2px 2px #000;
 margin-right:10px;
 }
 
-.tile{
-    padding-bottom:20px;
-    border-bottom:1px solid black;
-    overflow:hidden;
-
-}
 .pagination{
     z-index:2;
     position:relative;
@@ -451,5 +448,15 @@ margin-right:10px;
     color:#F24C3D;
 
 }
+.tile{
+    padding-bottom:20px;
+    border-bottom:1px solid black;
+    overflow:hidden;
 
+}
+@media(max-width:500px){
+    .banner{
+        font-size:11px;
+    }
+}
 
