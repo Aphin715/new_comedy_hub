@@ -455,9 +455,11 @@ margin-right:10px;
 
 }
 .tile{
-    padding-bottom:25px;
-
+    border-bottom:1px solid lightgray;
+    padding-bottom:50px;
+    position:relative;
 }
+
 .club h1, .h1{
     margin-bottom:50px;
     position:relative;
