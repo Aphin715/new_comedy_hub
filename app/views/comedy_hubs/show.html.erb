@@ -5,8 +5,9 @@
 <% t=Time.new %>
   <h2 class="center" style="color:#F24C3D;"><%= t.strftime("%A, %B %e") %></h2>
 
-  <section class="tile">
+
     <% @clubs.each do |club| %>
+    <section class="tile">
   <!-- # <%  club.shows.future.present? %> -->
 
     <h1 class="club"><%= club.name %> </h1>
@@ -24,8 +25,8 @@
   <% end %>
     <%= link_to '<button type="button" class="ticket">Make a Reservation</button>'.html_safe, club.website %>
 
-
-    <% end %>
     </section>
+    <% end %>
+
   <%- end -%>
 
