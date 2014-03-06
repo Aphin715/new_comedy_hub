@@ -3,18 +3,19 @@
 </div>
 
 <% t=Time.new %>
-  <h2 class="center" style="color:#F24C3D;"><%= t.strftime("%A, %B %e") %></h2>
+  <h2 class="center" style="color:#F24C3D;"><%= t.strftime("%A, %B %e") %>
+  </h2>
 
-
-    <% @clubs.each do |club| %>
+  <% @clubs.each do |club| %>
     <section class="tile">
   <!-- # <%  club.shows.future.present? %> -->
-
-    <h1 class="club"><%= club.name %> </h1>
+      <h1 class="club"><%= link_to simple_format(club.name),club.website %> </h1>
+     <!--  <p class="address"><%= club.location %></p> -->
 
   <% club.shows.future.order("start_time").each do |show| %>
     <h3 class="center"><%= show.pretty_start_time %></h3>
       <% show.comedians.each do |comedian| %>
+
     <div>
         <ol>
           <h4 class="comedian"><%= link_to simple_format(comedian.name),comedian_path(comedian) %></h4>
@@ -22,11 +23,13 @@
         </ol>
     </div>
 
-  <% end %>
+<% end %>
     <%= link_to '<button type="button" class="ticket">Make a Reservation</button>'.html_safe, club.website %>
-
-
+  </hr>
     <% end %>
-</section>
-  <%- end -%>
+    </section>
+    <% end %>
+
+
+
 
